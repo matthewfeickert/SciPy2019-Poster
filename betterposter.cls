@@ -19,6 +19,7 @@
 \RequirePackage{geometry}
 \geometry{a0paper}
 
+
 %% Paper orientation
 \geometry{landscape}
 
@@ -98,7 +99,8 @@
 }
 
 \DeclareOption{a0paper}{
-\geometry{a0paper}
+% \geometry{a0paper}
+\geometry{paperwidth=42in,paperheight=59.3784355179704in}
 }
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
