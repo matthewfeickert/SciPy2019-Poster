@@ -1,4 +1,4 @@
-# SciPy2019 Poster
+# SciPy 2019 Poster
 Poster on pyhf for the SciPy 2019 poster session
 
 ## [Poster Guidelines](https://www.scipy2019.scipy.org/info-for-presenters)
@@ -19,3 +19,7 @@ We use foam core board on our stands in case someone needs to pin something to t
 We provide large metal clips to fasten posters to the metal bars if needed, and we will have some thumbtacks available to help fasten items to the foam core boards, if needed.
 
 If you need to make any changes to the title, description or co-authors on your talk or poster, please contact Jill Cowan scipy@enthought.com.
+
+## Acknowledgements
+
+- Built using a modified version of [Rafael Bailo](https://github.com/rafaelbailo)'s [Better Poster Latex Template](https://github.com/rafaelbailo/betterposter-latex-template)
