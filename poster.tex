@@ -2,6 +2,7 @@
 \documentclass[a0paper,fleqn]{betterposter}
 \usepackage{bm}
 \graphicspath{{figures/}}
+\usepackage[hidelinks]{hyperref}
 
 % Uncomment the following commands to customise the format
 
@@ -70,7 +71,7 @@
   \qrcode{qr_code.pdf}{smartphoneWhite}{
    \textbf{Take a picture} to
    \\visit the pyhf website\\
-   https://diana-hep.org/pyhf
+   \href{https://diana-hep.org/pyhf}{https://diana-hep.org/pyhf}
   }
  }
 
@@ -81,7 +82,7 @@
  \vspace{-1em}
  \textbf{pure Python implementation of HistFactory}
 
- \author{{\underline{Matthew Feickert}$^{1}$}, {Lukas Heinrich$^{2}$}, {Giordon Stark$^{3}$}, {Kyle Cranmer$^{4}$}}
+ \author{{\href{https://www.matthewfeickert.com/}{\underline{Matthew Feickert}$^{1}$}}, \href{http://www.lukasheinrich.com/}{Lukas Heinrich$^{2}$}, \href{https://giordonstark.com/}{Giordon Stark$^{3}$}, \href{http://theoryandpractice.org/}{Kyle Cranmer$^{4}$}}
  \institution{1 Southern Methodist University,~~~2 CERN,~~~3 University of California Santa Cruz,~~~4 New York University}
  %
  \section{HistFactory}
@@ -204,17 +205,17 @@
  \vfill
  \begin{minipage}{0.58\textwidth}
   \begin{center}
-   \includegraphics[width=\textwidth]{IRIS-HEP_logo}
+   \href{http://iris-hep.org/}{\includegraphics[width=\textwidth]{IRIS-HEP_logo}}
   \end{center}
  \end{minipage}%
  \quad
  \begin{minipage}{0.38\textwidth}
   \begin{center}
-   \includegraphics[width=\textwidth]{pyhf_PyPI.pdf}
+   \href{https://pypi.org/project/pyhf/}{\includegraphics[width=\textwidth]{pyhf_PyPI.pdf}}
   \end{center}
   \vspace{1em}
   \begin{center}
-   \includegraphics[width=\textwidth]{zenodo_doi.pdf}
+   \href{https://doi.org/10.5281/zenodo.1169739}{\includegraphics[width=\textwidth]{zenodo_doi.pdf}}
   \end{center}
   \vspace{3em}
  \end{minipage}%
