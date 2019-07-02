@@ -1,0 +1,2 @@
+qrcode~=6.0
+black
