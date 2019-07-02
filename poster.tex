@@ -3,7 +3,7 @@
 \usepackage{bm}
 \graphicspath{{figures/}}
 
-%%%% Uncomment the following commands to customise the format
+% Uncomment the following commands to customise the format
 
 %% Setting the width of columns
 % Left column
@@ -21,37 +21,20 @@
 % Vertical margin for the main column
 %\setlength{\maincolumnmarginhorizontal}{0.15\paperheight}
 
-% %% Changing font sizes
-% % \fontsize{font size to use}{baselineskip to use}
-% % Text font
-% \renewcommand{\fontsizestandard}{\fontsize{28}{35} \selectfont}
-% % \renewcommand{\fontsizestandard}{\fontsize{26}{32.5} \selectfont}
-% % \renewcommand{\fontsizestandard}{\fontsize{26}{35} \selectfont}
-% % Main column font
-% %\renewcommand{\fontsizemain}{\fontsize{28}{35} \selectfont}
-% \renewcommand{\fontsizemain}{\fontsize{148}{280} \selectfont}
-% % Title font
-% %\renewcommand{\fontsizetitle}{\fontsize{28}{35} \selectfont}
-% % Author font
-% % \renewcommand{\fontsizeauthor}{\fontsize{28}{35} \selectfont}
-% % \renewcommand{\fontsizeauthor}{\fontsize{26}{32.5} \selectfont}
-% \renewcommand{\fontsizeauthor}{\fontsize{26}{35} \selectfont}
-% \newcommand{\fontsizeinstitution}{\fontsize{16}{25} \selectfont}
-% % Section font
-% %\renewcommand{\fontsizesection}{\fontsize{28}{35} \selectfont}
-% \renewcommand{\fontsizesection}{\fontsize{61.00}{87.00} \selectfont}
-
-% \renewcommand{\fontsizestandard}{\fontsize{41.00}{64} \selectfont}
+% Text font
 \renewcommand{\fontsizestandard}{\fontsize{32}{46} \selectfont}
+% Main column font
 \renewcommand{\fontsizemain}{\fontsize{148.00}{280.00} \selectfont}
+% Title font
 \renewcommand{\fontsizetitle}{\fontsize{101.50}{152.00} \selectfont}
+% Author font
 \renewcommand{\fontsizeauthor}{\fontsize{33.55}{47.3} \selectfont}
+\newcommand{\fontsizeinstitution}{\fontsize{20}{25} \selectfont}
+% Section font
 \renewcommand{\fontsizesection}{\fontsize{61.00}{86.00} \selectfont}
 \renewcommand{\fontsizesubsection}{\fontsize{48.00}{57.00} \selectfont}
-% \newcommand{\fontsizeinstitution}{\fontsize{16}{25} \selectfont}
-\newcommand{\fontsizeinstitution}{\fontsize{20}{25} \selectfont}
 
-%% Changing font sizes for a specific text segment
+% Changing font sizes for a specific text segment
 % Place the text inside brackets:
 % {\fontsize{28}{35} \selectfont Your text goes here}
 
@@ -86,7 +69,8 @@
   % QR code
   \qrcode{qr_code.pdf}{smartphoneWhite}{
    \textbf{Take a picture} to
-   \\visit the pyhf website
+   \\visit the pyhf website\\
+   https://diana-hep.org/pyhf
   }
  }
 
@@ -98,14 +82,13 @@
  \textbf{pure Python implementation of HistFactory}
 
  \author{{\underline{Matthew Feickert}$^{1}$}, {Lukas Heinrich$^{2}$}, {Giordon Stark$^{3}$}, {Kyle Cranmer$^{4}$}}
- \institution{1 Southern Methodist University, 2 CERN, 3 University of California Santa Cruz, 4 New York University}
+ \institution{1 Southern Methodist University,~~~2 CERN,~~~3 University of California Santa Cruz,~~~4 New York University}
  %
  \section{HistFactory}
  One of the most widely used statistical models in \textbf{high energy physics} for binned measurements and searches
 
  \begin{center}
-  % \includegraphics[width=\textwidth]{HistFactory_result_examples.png}
-  \includegraphics[width=\textwidth]{HistFactory_result_examples_crop.png}
+  \includegraphics[width=\textwidth]{HistFactory_result_examples.png}
  \end{center}
  %
  \vspace{-0.5em}
@@ -115,19 +98,19 @@
   \end{center}
  \end{minipage}%
  \quad
- \begin{minipage}{0.34\textwidth}
+ \begin{minipage}{0.36\textwidth}
   \begin{center}
    \textbf{Supersymmetry}
   \end{center}
  \end{minipage}%
  \quad
- \begin{minipage}{0.32\textwidth}
+ \begin{minipage}{0.27\textwidth}
   \begin{center}
    \textbf{Exotic Physics}
   \end{center}
  \end{minipage}%
  %
- \vspace{1em}
+ \vspace{2em}
  %
 
  \textbf{Declarative binned likelihoods}
@@ -199,7 +182,7 @@
  \vspace{0.5em}
  %
 
- Use of array (``tensor'') operations through a common API layer around high performance tensor libraries
+ Use of $n$-dimensional array (``tensor'') operations through a common API layer around high performance tensor libraries
 
  \vspace{-1em}
  \subsection{JSON Specification}
