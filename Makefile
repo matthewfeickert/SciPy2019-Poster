@@ -29,5 +29,8 @@ clean:
 		*.synctex.gz *.brf *.fls *.fdb_latexmk \
 		*.glg *.gls *.glo *.ist *.alg *.acr *.acn
 
+clean_drafts:
+	rm -f draft_*.pdf
+
 realclean: clean
 	rm -f *.ps *.pdf
