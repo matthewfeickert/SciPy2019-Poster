@@ -1,7 +1,8 @@
 # [SciPy 2019](https://www.scipy2019.scipy.org/) Poster
 Poster on [pyhf for the SciPy 2019 poster session](https://github.com/matthewfeickert/SciPy2019-Proposal)
 
-[![DOI](https://zenodo.org/badge/186745225.svg)](https://zenodo.org/badge/latestdoi/186745225)
+[![source DOI](https://zenodo.org/badge/186745225.svg)](https://zenodo.org/badge/latestdoi/186745225)
+[![proceedings DOI](https://zenodo.org/badge/DOI/10.25080/Majora-7ddc1dd1-019.svg)](https://doi.org/10.25080/Majora-7ddc1dd1-019)
 
 ## [Poster Guidelines](https://www.scipy2019.scipy.org/info-for-presenters)
 
